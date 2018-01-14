@@ -20,7 +20,6 @@ build/
 !default.perspectivev3
 
 xcuserdata/
-./Pods
 
 ## Other
 *.xccheckout

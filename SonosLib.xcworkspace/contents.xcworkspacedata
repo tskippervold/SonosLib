@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:SonosLib.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:SonosLib.xcodeproj">
    </FileRef>
    <FileRef

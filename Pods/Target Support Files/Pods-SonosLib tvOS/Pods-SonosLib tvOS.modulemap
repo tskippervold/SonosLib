@@ -1,0 +1,6 @@
+framework module Pods_SonosLib_tvOS {
+  umbrella header "Pods-SonosLib tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

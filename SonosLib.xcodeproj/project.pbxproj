@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D8761E03ED5B6D63B4207E /* Pods_SonosLib_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C106FB80554751E2B5405 /* Pods_SonosLib_tvOS.framework */; };
 		902E83A2200BCBEF005292A4 /* SonosLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 902E83A1200BCBEF005292A4 /* SonosLib.podspec */; };
 		90840E00200BBC3200242565 /* SonosLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 90840DFE200BBC3200242565 /* SonosLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90840E14200BBDB900242565 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90840E13200BBDB900242565 /* MyTest.swift */; };
 		90840E23200BBE2D00242565 /* SonosLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 90840DFE200BBC3200242565 /* SonosLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED63E77DD927CB188DFCA584 /* Pods_SonosLib_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9EBB490C264FA515A27EDF /* Pods_SonosLib_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049C106FB80554751E2B5405 /* Pods_SonosLib_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonosLib_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53635A7A3D0A809F3DC205D2 /* Pods-SonosLib tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonosLib tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonosLib tvOS/Pods-SonosLib tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6A2EDE0E42A24F6075CA1B22 /* Pods-SonosLib iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonosLib iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonosLib iOS/Pods-SonosLib iOS.release.xcconfig"; sourceTree = "<group>"; };
 		902E83A1200BCBEF005292A4 /* SonosLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SonosLib.podspec; sourceTree = "<group>"; };
 		90840DFB200BBC3200242565 /* SonosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SonosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90840DFE200BBC3200242565 /* SonosLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonosLib.h; sourceTree = "<group>"; };
@@ -21,6 +26,9 @@
 		90840E13200BBDB900242565 /* MyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTest.swift; sourceTree = "<group>"; };
 		90840E1B200BBE0700242565 /* SonosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SonosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90840E1E200BBE0700242565 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		A3E71BD83BE9533810328CD7 /* Pods-SonosLib iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonosLib iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonosLib iOS/Pods-SonosLib iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AD9EBB490C264FA515A27EDF /* Pods_SonosLib_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonosLib_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD319DFB45ABA877CEEBD1A /* Pods-SonosLib tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonosLib tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonosLib tvOS/Pods-SonosLib tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED63E77DD927CB188DFCA584 /* Pods_SonosLib_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D8761E03ED5B6D63B4207E /* Pods_SonosLib_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +57,8 @@
 				902E83A1200BCBEF005292A4 /* SonosLib.podspec */,
 				90840E11200BBC5D00242565 /* Sources */,
 				90840DFC200BBC3200242565 /* Products */,
+				CC3558866075E009E11EC83F /* Pods */,
+				ADA711B416B536887F437578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +80,26 @@
 				90840E1E200BBE0700242565 /* Info-tvOS.plist */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		ADA711B416B536887F437578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD9EBB490C264FA515A27EDF /* Pods_SonosLib_iOS.framework */,
+				049C106FB80554751E2B5405 /* Pods_SonosLib_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3558866075E009E11EC83F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3E71BD83BE9533810328CD7 /* Pods-SonosLib iOS.debug.xcconfig */,
+				6A2EDE0E42A24F6075CA1B22 /* Pods-SonosLib iOS.release.xcconfig */,
+				FAD319DFB45ABA877CEEBD1A /* Pods-SonosLib tvOS.debug.xcconfig */,
+				53635A7A3D0A809F3DC205D2 /* Pods-SonosLib tvOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,10 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90840E01200BBC3200242565 /* Build configuration list for PBXNativeTarget "SonosLib iOS" */;
 			buildPhases = (
+				A0395F8104B32F7C6B40B696 /* [CP] Check Pods Manifest.lock */,
 				90840DF6200BBC3200242565 /* Sources */,
 				90840DF7200BBC3200242565 /* Frameworks */,
 				90840DF8200BBC3200242565 /* Headers */,
 				90840DF9200BBC3200242565 /* Resources */,
+				CD46A22D1913254F56F8FF63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,10 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90840E20200BBE0700242565 /* Build configuration list for PBXNativeTarget "SonosLib tvOS" */;
 			buildPhases = (
+				34E2A87A164BF72A54CA7066 /* [CP] Check Pods Manifest.lock */,
 				90840E16200BBE0700242565 /* Sources */,
 				90840E17200BBE0700242565 /* Frameworks */,
 				90840E18200BBE0700242565 /* Headers */,
 				90840E19200BBE0700242565 /* Resources */,
+				8B9F12759E3B2B4E52731EA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +219,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34E2A87A164BF72A54CA7066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonosLib tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9F12759E3B2B4E52731EA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonosLib tvOS/Pods-SonosLib tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0395F8104B32F7C6B40B696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonosLib iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD46A22D1913254F56F8FF63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonosLib iOS/Pods-SonosLib iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90840DF6200BBC3200242565 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -216,6 +321,7 @@
 		};
 		90840E02200BBC3200242565 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E71BD83BE9533810328CD7 /* Pods-SonosLib iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -290,6 +396,7 @@
 		};
 		90840E03200BBC3200242565 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2EDE0E42A24F6075CA1B22 /* Pods-SonosLib iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +464,7 @@
 		};
 		90840E21200BBE0700242565 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD319DFB45ABA877CEEBD1A /* Pods-SonosLib tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -431,6 +539,7 @@
 		};
 		90840E22200BBE0700242565 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53635A7A3D0A809F3DC205D2 /* Pods-SonosLib tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

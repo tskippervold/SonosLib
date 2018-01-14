@@ -1,6 +1,0 @@
-framework module SwiftSocket {
-  umbrella header "SwiftSocket-tvOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

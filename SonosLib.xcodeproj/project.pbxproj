@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902E83A2200BCBEF005292A4 /* SonosLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 902E83A1200BCBEF005292A4 /* SonosLib.podspec */; };
 		90840E00200BBC3200242565 /* SonosLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 90840DFE200BBC3200242565 /* SonosLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90840E14200BBDB900242565 /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90840E13200BBDB900242565 /* MyTest.swift */; };
 		90840E23200BBE2D00242565 /* SonosLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 90840DFE200BBC3200242565 /* SonosLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		902E83A1200BCBEF005292A4 /* SonosLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SonosLib.podspec; sourceTree = "<group>"; };
 		90840DFB200BBC3200242565 /* SonosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SonosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90840DFE200BBC3200242565 /* SonosLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonosLib.h; sourceTree = "<group>"; };
 		90840DFF200BBC3200242565 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		90840DEF200BBC2000242565 = {
 			isa = PBXGroup;
 			children = (
+				902E83A1200BCBEF005292A4 /* SonosLib.podspec */,
 				90840E11200BBC5D00242565 /* Sources */,
 				90840DFC200BBC3200242565 /* Products */,
 			);
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902E83A2200BCBEF005292A4 /* SonosLib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
